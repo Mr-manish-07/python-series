@@ -1,0 +1,10 @@
+anyNum = int (input("Enter any number : "))
+match anyNum :
+    case 1 : print("This is case 1")
+    case 2 : print("This is case 1")
+    case 3  : print("This is case 1")
+    case _ if anyNum < 10: print("Default 10")
+    case _ if anyNum < 20: print("Default 20")
+    case _ if anyNum < 30: print("Default 30")
+    case _ if anyNum < 40: print("Default 40")
+    case _ : print("Out of 40")
