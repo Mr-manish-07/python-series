@@ -18,6 +18,6 @@ print(list[1:-1: 2])
 
 print(["RAjeet","Manis",True,45]) #we can create list inside
 
-#We can use loop inside list to create it and even we can use condition 
+#We can use loop inside list to create it and even we can use condition
 lst = [i for i in range(5000)  if i % 100 == 0]
 print(lst)
