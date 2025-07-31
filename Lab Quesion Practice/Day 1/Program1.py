@@ -1,11 +1,10 @@
-# Find maximum , minimum and average of 3 number without using python method
+# WAP for taking input and check its id and type
 
-n1 = int (input("Enter A : "))
-n2 = int (input("Enter B : "))
-n3 = int (input("Enter C : "))
+scanner = input("Enter any value : ")
+print(type(scanner))
+print(id(scanner))
 
-if n1 > n2 :
-    if n1 > n3 :
-        print("n1 is greater")
-    elif n3 > n1 :
-        print("n3 is greater")
+print("For sum enter a and b ")
+n1 = int(input("A:"))
+n2 = int(input("B:"))
+print(n1+n2)
