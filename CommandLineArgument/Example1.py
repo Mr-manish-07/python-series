@@ -5,4 +5,5 @@ else:
     y = sys.argv[2]
     x = sys.argv[1]
     z = sys.argv[3]
+    print('trying to pull')
     print(max(x,y,z))
